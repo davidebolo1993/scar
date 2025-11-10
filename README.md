@@ -110,7 +110,7 @@ MIT License - see LICENSE file for details
 ## Contact
 
 - **Author**: Davide Bolognini
-- **Issues**: https://github.com/yourusername/scar/issues
+- **Issues**: https://github.com/davidebolo1993/scar/issues
 
 ## Acknowledgments
 
