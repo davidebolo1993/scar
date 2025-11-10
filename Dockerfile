@@ -14,8 +14,6 @@ RUN apt-get update && \
     pkg-config \
     ca-certificates \
     autoconf \
-    autoheader \
-    automake \
     libtool \
     && apt-get clean
 
