@@ -30,7 +30,7 @@ if(NOT htslib_POPULATED)
   ExternalProject_Add(htslib_build
     SOURCE_DIR ${htslib_SOURCE_DIR}
     BINARY_DIR ${htslib_SOURCE_DIR}
-    CONFIGURE_COMMAND bash -c "cd ${htslib_SOURCE_DIR} && autoheader && autoconf && ./configure --prefix=${HTSLIB_INSTALL_DIR}"
+    CONFIGURE_COMMAND bash -c "cd ${htslib_SOURCE_DIR} && ./configure --prefix=${HTSLIB_INSTALL_DIR} || (autoreconf -i && ./configure --prefix=${HTSLIB_INSTALL_DIR})"
     BUILD_COMMAND make -j 4
     INSTALL_COMMAND make install
   )
