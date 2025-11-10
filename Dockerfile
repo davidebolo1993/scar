@@ -14,7 +14,7 @@ RUN apt-get update && \
     pkg-config \
     ca-certificates \
     autoconf \
-    autotools \
+    autotools-dev \
     libtool \
     && apt-get clean
 
