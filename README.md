@@ -30,6 +30,12 @@ cmake ..
 make
 ```
 
+### Singularity
+
+```bash
+singularity pull --dir . docker://davidebolo1993/scar:latest
+```
+
 The compiled binary will be at `build/scar`.
 
 ## Quick Start

@@ -1,0 +1,41 @@
+INFO: localdir at /localscratch/25188394.davide.bolognini
+INFO: your job will run on local system.
+Loading singularity/3.8.5
+  Loading requirement: bzip2/1.0.8 gettext/0.19.8.1 libiconv/1.17 pkgconf/1.4.2
+    xz/5.4.1 zlib/1.2.13 zstd/1.5.5 elfutils/0.189 libffi/3.4.4 pcre2/10.42
+    berkeley-db/18.1.40 ncurses/6.2 readline/8.2 gdbm/1.19 perl/5.34.0
+    libmd/1.0.4 libbsd/0.11.7 expat/2.5.0 libxcrypt/4.4.35 openssl/1.1.1g
+    sqlite/3.26.0 util-linux-uuid/2.38.1 python/3.9.10 python-3.9.10/glib/2.78.0
+    libseccomp/2.5.1 python-3.9.10/conmon/2.1.7 cryptsetup/2.3.3 git/2.27.0
+    go/1.21.3 libgpg-error/1.31 shadow/4.13 squashfs/4.3
+tmpdir: /localscratch/25188394.davide.bolognini
+singularity pull --dir /group/soranzo/davide.bolognini/working/dev/scar docker://davidebolo1993/scar:latest
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+Getting image source signatures
+Copying blob sha256:af6eca94c8104c8e90d3f9efe59c2b3a02b20aad3d985e31c7cd009ea104c447
+Copying blob sha256:8f69c2c757db80d15c0b25f10055c670f3ed8700085288c1715569dd2a117dec
+Copying blob sha256:ffdaac2643b7694dfb13821f230ab2d0ab36ac2259accc09a21c3ad6300fbbc4
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:22cacadcacc57ef4afc31829f9b0aa4da2c0e415ffe0843c3109823652b79fc8
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:2e9bb34a98f8d4bf9c2f45b9f23a72be22e97ce5318bcb7e751468ab5ffa9c55
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:26fd1057a87899a25d9404cb9efd869f9c7834e0ad509da69cab4180d5374972
+Copying blob sha256:d587b69b9ab4b56e5556a555030ca61add330317809fdf08ca95cb9d2b67e37f
+Copying config sha256:bb6849d90346534f88f9e5ce33bac0d0d8e014862d7543436bff549bc1dd6413
+Writing manifest to image destination
+Storing signatures
+2025/11/10 15:09:00  info unpack layer: sha256:af6eca94c8104c8e90d3f9efe59c2b3a02b20aad3d985e31c7cd009ea104c447
+2025/11/10 15:09:02  info unpack layer: sha256:8f69c2c757db80d15c0b25f10055c670f3ed8700085288c1715569dd2a117dec
+2025/11/10 15:09:08  info unpack layer: sha256:ffdaac2643b7694dfb13821f230ab2d0ab36ac2259accc09a21c3ad6300fbbc4
+2025/11/10 15:09:08  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2025/11/10 15:09:08  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2025/11/10 15:09:08  info unpack layer: sha256:22cacadcacc57ef4afc31829f9b0aa4da2c0e415ffe0843c3109823652b79fc8
+2025/11/10 15:09:08  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2025/11/10 15:09:08  info unpack layer: sha256:2e9bb34a98f8d4bf9c2f45b9f23a72be22e97ce5318bcb7e751468ab5ffa9c55
+2025/11/10 15:09:08  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2025/11/10 15:09:08  info unpack layer: sha256:26fd1057a87899a25d9404cb9efd869f9c7834e0ad509da69cab4180d5374972
+2025/11/10 15:09:11  info unpack layer: sha256:d587b69b9ab4b56e5556a555030ca61add330317809fdf08ca95cb9d2b67e37f
+INFO:    Creating SIF file...
